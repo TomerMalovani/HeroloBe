@@ -6,11 +6,12 @@ hope you find my code worthy :)
 
 ---------------------------------------------------------------------------------
 be/readall: reads all message:
-GET
+http request type: GET
 
 
-write new msg:
-POST
+write new message:
+
+http request type:POST
 
 parameters:
 
@@ -46,7 +47,7 @@ exmple:
 --------------------------------------------------------------------------
 read all unread message:
 be/readunread
-GET
+http request type:GET
 
 parameters:query string: name
 
@@ -55,6 +56,7 @@ http://127.0.0.1:8000/be/readunread?name=tomermalovani@gmail.com
 
 -----------------------------------------------------------------------------
 read one unread message :
+http request type:PUT
 /be/readmsg
 parameters:
 1.id(message id)
@@ -62,7 +64,7 @@ parameters:
 ---------------------------------------------------------------------------
 delete a message
 
-e/deletemsg
+be/deletemsg
 
 parameters:
 1.id
