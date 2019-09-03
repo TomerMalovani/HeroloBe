@@ -3,7 +3,7 @@
 simple message api to receive and send messages
 
 hope you find my code worthy :)
-
+---------------------------------------------------------------------------------
 be/readall: reads all message:
 GET
 
@@ -42,7 +42,7 @@ exmple:
  
 }
 
-
+--------------------------------------------------------------------------
 read all unread message:
 be/readunread
 GET
@@ -51,13 +51,13 @@ parameters:query string: name
 
 
 http://127.0.0.1:8000/be/readunread?name=tomermalovani@gmail.com
-
+-----------------------------------------------------------------------------
 read one unread message :
 /be/readmsg
 parameters:
 1.id(message id)
 
-
+---------------------------------------------------------------------------
 delete a message
 
 e/deletemsg
