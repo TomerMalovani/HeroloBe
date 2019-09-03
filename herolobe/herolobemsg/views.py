@@ -22,7 +22,7 @@ def write_msg(request):
             receiver=data["receiver"],
             subject=data["subject"],
             message=data["message"],
-            been_read=data["been_read"],
+            been_read=False,
             creation_date=datetime.now())
 
         new_msg.save()
